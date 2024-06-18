@@ -29,3 +29,4 @@ def preload_extensions(extensions_dir, parser, extension_list=None):
 
         except Exception:
             errors.report(f"Error running preload() for {preload_script}", exc_info=True)
+gh repo clone pkuliyi2015/multidiffusion-upscaler-for-automatic1111
